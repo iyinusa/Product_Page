@@ -1,0 +1,98 @@
+body {
+    background-color: #eee;
+    padding: 15px;
+}
+
+#header {
+
+}
+
+#header .logo {
+    float: left;
+    max-width: 30%;
+}
+
+#header .links {
+    float: right;
+    margin-left: 30%;
+}
+
+#header .logo #header-img {
+    max-width: 100%;
+}
+
+#nav-bar {
+    float: left;
+}
+#nav-bar a {
+    float: left;
+    padding: 0px 25px;
+}
+
+#form-box {
+    clear: both;
+    display: block;
+    width: 100%;
+    margin: 15px;
+    padding-top: 35px;
+    text-align: center;
+}
+#form-box .btn {
+    margin-top: 10px;
+    padding: 5px 25px;
+    background-color: #FFA500;
+    font-weight: 900;
+}
+
+#item-list {
+    padding: 10px 20%;
+    margin-top: 20px;
+}
+#item-list i {
+    color: #FFA500;
+    margin-right: 35px;
+    float: left;
+}
+
+#pricing {
+    padding: 20px 20%;
+}
+#pricing .each-price {
+    text-align: center;
+    border: 1px solid #666;
+}
+#pricing .each-price .title {
+    background-color: #ddd;
+    padding: 10px 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#pricing .each-price h3 {
+    padding: 10px;
+}
+#pricing .each-price a {
+    display: block;
+    padding: 15px;
+    background-color: #FFA500;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+#pricing .each-price a:hover {
+    background-color: #f9bc52;
+}
+
+#footer {
+    padding: 0px 20%;
+}
+#footer .content {
+    background-color: #ddd;
+    padding: 15px 10px;
+    text-align: right;
+}
+#footer .content a {
+    padding: 0px 10px;
+    text-decoration: none;
+    color: #000;
+}
